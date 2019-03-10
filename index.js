@@ -1,4 +1,5 @@
 var animal = 'dog'
+var yourAnimal = 'cat'
 const two = 2
   
 function myAnimal() {
