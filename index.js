@@ -1,7 +1,6 @@
 var animal = 'dog'
 var otherAnimal = 'cat'
 const two = 2
-var x = 2
   
 function myAnimal() {
   return animal
@@ -15,7 +14,7 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  return x
+  return n + two
 }
 
 var funkyFunction = function() {
@@ -27,4 +26,3 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction()()
-add2(10)
